@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split("\n")
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency 'rails', '5.1.7'
+  s.add_dependency 'rails', '5.2.3'
   s.add_dependency 'sprockets', '>= 3.0'
 
   s.add_development_dependency "yard"
